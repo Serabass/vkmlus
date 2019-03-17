@@ -13,8 +13,8 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 // webpack.config.js
 module.exports = {
   entry: {
-    "index": path.join(__dirname, 'index.ts'),
-    "index.min": path.join(__dirname, 'index.ts')
+    "index": path.join(__dirname, 'src/index.ts'),
+    "index.min": path.join(__dirname, 'src/index.ts')
   },
   output: {
     path: path.join(__dirname, '/dist'),
@@ -48,18 +48,8 @@ module.exports = {
 // @version           ${pkg.version}
 // @update            ${moment().format('YYYY-MM-DD HH:mm:ss')}
 // @grant             GM_xmlhttpRequest
-// @include           *www.baidu.com*
-// @include           *tieba.baidu.com*
-// @include           *v.baidu.com*
-// @include           *www.google.*
-// @include           *encrypted.google.com*
-// @include           *www.so.com*
-// @include           *www.zhihu.com*
-// @include           *daily.zhihu.com*
-// @include           *zhuanlan.zhihu.com*
-// @include           *weibo.com*
-// @include           *twitter.com*
-// @include           *www.sogou.com*
+// @include           *www.vk.com*
+// @include           *vk.com*
 // @connect           *
 // @compatible        chrome  完美运行
 // @compatible        firefox  完美运行

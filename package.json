@@ -10,7 +10,10 @@
     "generate": "all-contributors generate",
     "deploy": "gh-pages -d ./dist"
   },
-  "keywords": ["typescript", "script"],
+  "keywords": [
+    "typescript",
+    "script"
+  ],
   "author": "Axetroy",
   "license": "ISC",
   "devDependencies": {
@@ -21,8 +24,13 @@
     "ts-loader": "^3.0.0",
     "ts-node": "^5.0.0",
     "typescript": "^2.2.2",
-    "webpack-bundle-analyzer": "^2.8.2",
-    "webpack": "^3.0.0"
+    "webpack": "^3.0.0",
+    "webpack-bundle-analyzer": "^2.8.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/node-fetch": "^2.1.6",
+    "md5": "^2.2.1",
+    "node-fetch": "^2.3.0"
+  }
 }
